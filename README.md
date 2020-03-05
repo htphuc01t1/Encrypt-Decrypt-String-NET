@@ -31,6 +31,5 @@ string decryptText = TripleDESHelper.Decrypt(key, encryptText);
 string key = "YourKey";
 string encryptText = AESHelper.Encrypt(key, planText);
 string decryptText = AESHelper.Decrypt(key, encryptText);
-}
 ```
 
